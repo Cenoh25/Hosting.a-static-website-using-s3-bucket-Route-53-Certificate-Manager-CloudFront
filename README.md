@@ -1,4 +1,4 @@
-# Hosting a-Static-Website-using-S3-bucket-Route53-Certificate Manager-CloudFront
+# Hosting a-Static-Website-using-S3 bucket-Route53-Certificate Manager-CloudFront
 
 In this project I created a static website using S3 bucket, Route 53, Certificate Manager and CloudFront.
 Scenario: Lets imagine you have a company with a marketing department, and you have to decide on how to launch a new promotional campaign on a static website. This website has to showcase your latest products and offers. 
