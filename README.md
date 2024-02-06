@@ -1,6 +1,6 @@
-# Hosting a-Static-Website-using-S3 bucket-Route53-Certificate Manager-CloudFront
+# Hosting a-Static-Website-in AWS-using-S3 bucket-Route53-Certificate Manager-CloudFront
 
-In this project I created a static website using S3 bucket, Route 53, Certificate Manager and CloudFront.
+In this project I created a static website in AWS using S3 bucket, Route 53, Certificate Manager and CloudFront.
 Scenario: Lets imagine you have a company with a marketing department, and you have to decide on how to launch a new promotional campaign on a static website. This website has to showcase your latest products and offers. 
 In order to ensure high availability and optimal performance, I can choose to host the website on AWS.
 I will create an s3 bucket to store content. This will ensure scalability and cost effectiveness.
@@ -8,7 +8,7 @@ Route 53 will be used for domain management. This will enable users/customers to
 The certificate manager will help secure the website with SSL certificate. This will ensure that the website is accessible through Https instead of Http.
 Cloudfront will serve as a content delivery network (CDN). This will accelerate content delivery to users worldwide ensuring faster load time and a seamless browsing experience.
 
-When customers access the website it will result to an end point from route 53. The end point will be redirected to amazon cloudfront to help serve the customers as well as help to reduce the latency and give a better user experience to the customers. The website will be created using HTTPS protocole. This will make it more secure and this will be done using the certificate manager. Finally cloudfront will reach out to the S3 bucket to serve the users/customers with the contents of the website. 
+When customers access the website it will result to an end point from route 53. The end point will be redirected to amazon cloudfront to help serve the customers as well as help to reduce the latency and give a better user experience to the customers. The website will be created using the HTTPS protocole. This will make it more secure and this will be done using the certificate manager. Finally cloudfront will reach out to the S3 bucket to serve the users/customers with the contents of the website. 
 
 Story 1: I created a domain name (cenoh.com). One can be purchased either on the amazon console or on go daddy. I created an S3 bucket and I made accessible to the public. Content was added to the s3 bucket but uploading flies. Once files were added to the bucket, I created a bucket policy to give permission for these files to be accessed globally. 
 
